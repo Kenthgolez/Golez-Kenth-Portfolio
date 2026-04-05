@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+     background: mistyrose;
+}
+
+.h1{
+    font-size: 50px;
+    padding: 0;
+    margin-left: 20%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 1rem;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.navbar ul li {
+    margin: 5px 10px;
+    color: cyan;
+    display: grid;
+    place-content: center;
+    margin: 0;
+}
+
+.navbar ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+}
+.navbar ul li a:hover {
+    color: #fff;
+
+}
+
+.navbar a {
+   position: relative;
+   text-decoration: none;
+   color: black;
+
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+.navbar a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+h2{
+    margin-bottom: 10%;
+}
+
+.welcome-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  box-shadow: black 0px 0px 10px;
+}
