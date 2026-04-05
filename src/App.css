@@ -10,7 +10,7 @@ body {
   padding: 2rem 1rem 3rem;
 }
 
-/* ---- HOME PAGE ---- */
+
 .hero {
   text-align: center;
   padding: 2.5rem 1rem 1.5rem;
@@ -163,7 +163,7 @@ body {
   100% { background-position: 200% 0%; }
 }
 
-/* ---- INNER PAGES ---- */
+
 .page-body {
   padding: 3rem 2rem;
   min-height: 100vh;
@@ -222,7 +222,7 @@ body {
   color: blueviolet;
 }
 
-/* ---- SCROLL IMAGES ---- */
+
 .scroll-wrapper {
   overflow: hidden;
   width: 100%;
